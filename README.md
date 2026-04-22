@@ -26,12 +26,12 @@
 * **Результат:** Точка отказа достигнута при накоплении **~1.95 млн записей**.
 * [Скриншот Response Time](screenshots/load20sec/Response%20Times%20Over%20Time.png)
 * [Скриншот счетчика (20s)](screenshots/load20sec/20sec.png)
-* [Скриншот счетчика коментариев](screenshots/load20sec/counter_comments.png)
+* [Скриншот счетчика коментариев](screenshots/load20sec/total_count.png)
 
 ### 3. Тестирование на 1 000 000 записей
 Замер производительности при уже нагруженной БД.
 * **Результат:** При наличии 1 млн записей базовое время отклика составило **~9 сек**. Деградация до 20 сек наступила при достижении общего объема ~3.00 млн записей.
 * [Скриншот 1 млн](screenshots/load1M20sec/Response%20Times%20Over%20Time.png)
 * [Скриншот счетчика (20s)](screenshots/load1M20sec/20sec.png)
-* [Скриншот счетчика коментариев](screenshots/load1M20sec/counter_comments.png)
+* [Скриншот счетчика коментариев](screenshots/load1M20sec/total_count.png)
 
