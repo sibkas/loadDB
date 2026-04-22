@@ -1,0 +1,25 @@
+# Данные баз данных (Docker)
+**/mysql/*
+**/influxdb/*
+# Если папка с данными БД называется по-другому, например db_data/
+**/db_data/*
+
+# WordPress (Ядро)
+# Если файлы WP лежат прямо в корне или в папке /wordpress
+wp-admin/
+wp-includes/
+wp-content/
+index.php
+wp-config.php
+xmlrpc.php
+license.txt
+readme.html
+
+# Временные файлы и логи JMeter
+*.jtl
+*.log
+jmeter.log
+
+# Служебные папки ОС
+.DS_Store
+Thumbs.db
